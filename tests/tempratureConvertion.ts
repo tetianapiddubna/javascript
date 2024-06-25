@@ -1,11 +1,11 @@
-export function fahrenheitToCelsius (fahrenheit) {
- let tempratureF = fahrenheit; 
- let convertFarenheitToCelsius = (tempratureF = 32) * 5/9;
- return convertFarenheitToCelsius;
+export function fahrenheitToCelsius(fahrenheit) {
+    let temperatureF = fahrenheit;
+    let convertFahrenheitToCelsius = (temperatureF - 32) * 5 / 9;
+    return convertFahrenheitToCelsius;
 }
 
-export function celsiusToFarenheit(celsius) {
-    let tempratureC = celsius;
-    let convertCelsiusToFarenheit = tempratureC * 9 / 5 + 32;
-    return convertCelsiusToFarenheit;
+export function celsiusToFahrenheit(celsius) {
+    let temperatureC = celsius;
+    let convertCelsiusToFahrenheit = temperatureC * 9 / 5 + 32;
+    return convertCelsiusToFahrenheit;
 }
